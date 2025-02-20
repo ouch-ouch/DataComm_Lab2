@@ -1,4 +1,6 @@
+- Problem Statement - Deploy a simple application to K8 that returns the current time when visited using the path "/time"
 Steps used to test the image on minikube
+
 
   docker build -t time-app:tag .
   docker images
